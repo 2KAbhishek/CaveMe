@@ -14,4 +14,16 @@ locs[] = {
 
 #define numOfLocations (sizeof(locs) / sizeof(*locs))
 
-static unsigned locationOfPlayer = 0;
+static unsigned locOfPlayer = 0;
+
+void executeLook(const char *noun)
+{
+    if (noun != NULL && strcmp(noun, "around") == 0)
+    {
+        printf("You are in %s.\n", locs[locOfPlayer].description);
+    }
+    else
+    {
+        printf("I don't understand what you want to see.\n");
+    }
+}
