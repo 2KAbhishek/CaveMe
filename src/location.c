@@ -27,3 +27,23 @@ void executeLook(const char *noun)
         printf("I don't understand what you want to see.\n");
     }
 }
+
+void executeGo(const char *noun)
+{
+    unsigned i;
+    for (i = 0; i < numOfLocations; i++)
+    {
+        if (i == locOfPlayer)
+        {
+            printf("You are already there.\n");
+        }
+        else
+        {
+            printf("OK.\n");
+            locOfPlayer = i;
+            executeLook("around");
+        }
+        return;
+    }
+    printf("I don't understand where you want to go.\n");
+}
