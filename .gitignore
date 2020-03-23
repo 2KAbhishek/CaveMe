@@ -2,3 +2,6 @@
 # Output files
 *.o
 *.gch
+*.gv
+*.png
+caveme
