@@ -33,3 +33,8 @@ void executeDrop(const char *noun)
 {
     moveObject(noun, player, player->location);
 }
+
+void executeGive(const char *noun)
+{
+    moveObject(noun, player, personHere());
+}
