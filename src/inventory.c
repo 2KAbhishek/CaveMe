@@ -28,3 +28,8 @@ void executeGet(const char *noun)
 {
     moveObject(noun, player->location, player);
 }
+
+void executeDrop(const char *noun)
+{
+    moveObject(noun, player, player->location);
+}
