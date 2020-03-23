@@ -23,7 +23,8 @@ To install CaveMe, follow these steps:
 
 ```bash
 git clone https://github.com/2kabhishek/CaveMe.git
-cd CaveMe
+cd CaveMe/src
+make
 
 ```
 
@@ -32,4 +33,5 @@ cd CaveMe
 To run CaveMe, follow these steps:
 
 ```bash
+./caveme
 ```
