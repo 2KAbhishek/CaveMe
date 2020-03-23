@@ -23,3 +23,8 @@ static void moveObject(const char *noun, OBJECT *from, OBJECT *to)
         printf("OK.\n");
     }
 }
+
+void executeGet(const char *noun)
+{
+    moveObject(noun, player->location, player);
+}
