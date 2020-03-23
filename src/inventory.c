@@ -43,3 +43,11 @@ void executeAsk(const char *noun)
 {
     moveObject(noun, personHere(), player);
 }
+
+void executeInventory(void)
+{
+    if (listObjectsAtLocation(player) == 0)
+    {
+        printf("You are empty-handed.\n");
+    }
+}
