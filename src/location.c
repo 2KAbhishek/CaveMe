@@ -5,8 +5,7 @@ struct location
 {
     const char *description;
     const char *tag;
-};
-
+}
 locs[] = {
     {"a dark cave", "cave"},
     {"an open field", "field"}
@@ -33,17 +32,20 @@ void executeGo(const char *noun)
     unsigned i;
     for (i = 0; i < numOfLocations; i++)
     {
-        if (i == locOfPlayer)
+        if (noun != NULL && strcmp(noun, locs[i].tag) == 0)
         {
-            printf("You are already there.\n");
+            if (i == locOfPlayer)
+            {
+                printf("You are already there.\n");
+            }
+            else
+            {
+                printf("OK.\n");
+                locOfPlayer = i;
+                executeLook("around");
+            }
+            return;
         }
-        else
-        {
-            printf("OK.\n");
-            locOfPlayer = i;
-            executeLook("around");
-        }
-        return;
     }
     printf("I don't understand where you want to go.\n");
 }
