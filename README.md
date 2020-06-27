@@ -1,5 +1,3 @@
-<div align="center">
-
 # CaveMe
 
 ![Size](https://img.shields.io/github/repo-size/2kabhishek/CaveMe?style=plastic&color=0f0&label=Size)
@@ -12,7 +10,6 @@
 
 CaveMe is a text adventure game that reminds you of an era long gone.
 
-</div>
 
 ## Prerequisites
 
@@ -37,5 +34,4 @@ To run CaveMe, follow these steps:
 ```bash
 ./caveme
 ```
-Please consider hitting the ⭐ star button if this repo was useful to you, any contributions and suggestions are welcome.
 
