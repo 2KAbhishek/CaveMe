@@ -10,12 +10,11 @@
 
 CaveMe is a text adventure game that reminds you of an era long gone.
 
-
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-* You have installed the latest version of gcc.
+- You have installed the latest version of gcc.
 
 ## Installing CaveMe
 
@@ -34,4 +33,3 @@ To run CaveMe, follow these steps:
 ```bash
 ./caveme
 ```
-
