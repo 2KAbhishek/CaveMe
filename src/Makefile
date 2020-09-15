@@ -1,3 +1,4 @@
+# Default rule: dependencies
 all: caveme map.png
 
 C = object.c misc.c inventory.c location.c main.c
