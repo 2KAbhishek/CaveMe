@@ -25,6 +25,8 @@ To install CaveMe, follow these steps:
 git clone https://github.com/2kabhishek/CaveMe.git
 cd CaveMe
 make
+# For getting a map of the game
+make map
 ```
 
 This will generate the caveme binary and a map.png in the `bin` directory.
