@@ -14,7 +14,8 @@ CaveMe is a text adventure game that reminds you of an era long gone.
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of gcc.
+- You have installed the latest version of gcc, awk for the game.
+- Graphviz for generating the map.
 
 ## Installing CaveMe
 
@@ -22,14 +23,31 @@ To install CaveMe, follow these steps:
 
 ```bash
 git clone https://github.com/2kabhishek/CaveMe.git
-cd CaveMe/src
+cd CaveMe
 make
 ```
 
-## Using CaveMe
+This will generate the caveme binary and a map.png in the `bin` directory.
+
+## Running CaveMe
 
 To run CaveMe, follow these steps:
 
 ```bash
+cd bin
 ./caveme
 ```
+
+## Gameplay Instructions
+
+Similar to old school text based RPGs, use keywords to do various actions.
+
+Implemented actions include:
+
+- look
+- go
+- give
+- drop
+- ask
+- inventory
+- quit
