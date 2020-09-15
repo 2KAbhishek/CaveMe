@@ -3,9 +3,9 @@ all: caveme map.png
 C = object.c misc.c inventory.c location.c main.c
 H = object.h misc.h inventory.h location.h
 
-# $@ - The arguments passed to make, e.g - make caveme
+# @ - Evaluates to current target passed to make, e.g - make caveme
 
-# Main game binary
+# Main game binary target
 caveme: $(C) $(H)
 	gcc $(C) -o $@
 
