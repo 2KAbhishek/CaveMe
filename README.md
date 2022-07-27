@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://2kabhishek.github.io/CaveMe">BareMinimum</a></h1>
+<h1><a href="https://2kabhishek.github.io/CaveMe">CaveMe</a></h1>
 
 <a href="https://github.com/2KAbhishek/CaveMe/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/CaveMe?style=flat&color=eee&label="> </a>
